@@ -1,0 +1,34 @@
+# Vantix — .gitignore
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# API keys and secrets
+_docs/api-keys.md
+*.secret.*
+
+# Data files
+data/output/
+data/input/*.csv
+data/input/*.xlsx
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Logs
+logs/
+*.log
